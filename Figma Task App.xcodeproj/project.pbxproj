@@ -11,6 +11,10 @@
 		9BBD76E425489C1200082C9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBD76E325489C1200082C9D /* ContentView.swift */; };
 		9BBD76E625489C1300082C9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BBD76E525489C1300082C9D /* Assets.xcassets */; };
 		9BBD76E925489C1300082C9D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BBD76E825489C1300082C9D /* Preview Assets.xcassets */; };
+		9BBD77042549CCEF00082C9D /* CheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBD77032549CCEF00082C9D /* CheckView.swift */; };
+		9BBD77072549D6FE00082C9D /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBD77062549D6FE00082C9D /* TaskListView.swift */; };
+		9BBD770F2549F20E00082C9D /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBD770E2549F20E00082C9D /* TaskView.swift */; };
+		9BBD7712254B094E00082C9D /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBD7711254B094E00082C9D /* DatePickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		9BBD76E525489C1300082C9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BBD76E825489C1300082C9D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9BBD76EA25489C1300082C9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BBD77032549CCEF00082C9D /* CheckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckView.swift; sourceTree = "<group>"; };
+		9BBD77062549D6FE00082C9D /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+		9BBD770E2549F20E00082C9D /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		9BBD7711254B094E00082C9D /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,10 @@
 			children = (
 				9BBD76E125489C1200082C9D /* Figma_Task_AppApp.swift */,
 				9BBD76E325489C1200082C9D /* ContentView.swift */,
+				9BBD77062549D6FE00082C9D /* TaskListView.swift */,
+				9BBD770E2549F20E00082C9D /* TaskView.swift */,
+				9BBD77032549CCEF00082C9D /* CheckView.swift */,
+				9BBD7711254B094E00082C9D /* DatePickerView.swift */,
 				9BBD76E525489C1300082C9D /* Assets.xcassets */,
 				9BBD76EA25489C1300082C9D /* Info.plist */,
 				9BBD76E725489C1300082C9D /* Preview Content */,
@@ -138,8 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BBD7712254B094E00082C9D /* DatePickerView.swift in Sources */,
 				9BBD76E425489C1200082C9D /* ContentView.swift in Sources */,
+				9BBD77072549D6FE00082C9D /* TaskListView.swift in Sources */,
 				9BBD76E225489C1200082C9D /* Figma_Task_AppApp.swift in Sources */,
+				9BBD770F2549F20E00082C9D /* TaskView.swift in Sources */,
+				9BBD77042549CCEF00082C9D /* CheckView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
